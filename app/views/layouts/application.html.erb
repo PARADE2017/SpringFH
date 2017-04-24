@@ -11,20 +11,21 @@
   <body>
     <header class="row">
       <div class="col-3">
+        <%= link_to root_path, class: 'logo' do %>
         <div class="circle">
           <br />
-          You know
+          Think
           <br />
-          You
-          <br />
-          need to Code!
+          DEEP!
         </div>
+        <% end %>
       </div>
       <div class="col-4 slogan">
         Splurting out wisdom from unexpected places
       </div>
       <div class="col-5 links">
-        <%=link_to 'Contribute', '#' %>
+        <%=link_to 'Contribute', new_quote_path %>
+        &nbsp;&nbsp;
         <%= link_to 'About', '#' %>
       </div>
     </header>
@@ -32,6 +33,23 @@
     <hr />
 
     <br class ="clear" />
-    <%= yield %>
+    <div class="container">
+      <%= yield %>
+    </div>
+    
+    <div clas="footer">
+      <div class="container">
+        <div class="row">
+          <div class="col-6">
+            <%=link_to "This isn't enough, I want more.", root_path, class: 'next-quote' %>
+          </div
+          <div class="col-6 footer-blurb">
+            Proudly written in Duvall, WA by Terry <br />
+            Want to build your own app? - <a href="http://thefirehoseproject.com">Learn to code here</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
   </body>
 </html>
