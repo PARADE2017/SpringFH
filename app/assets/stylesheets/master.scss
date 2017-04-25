@@ -58,6 +58,19 @@
         font-family: 'Varela Round', sans-serif;
         font-size: 30px;
     }
+
+    h3 {
+        font-family: 'Varela Round', sans-serif;
+        font-size: 22px;
+    }
+
+
+    h2 span {
+        font-family: 'Varela Round', sans-serif;
+        color: #dddddd;
+    }
+
+
 .next-quote{
     color:#f84342;
     font-family: 'Varela Round', sans-serif;
@@ -72,4 +85,21 @@
 }
 .logo:hover {
     text-decoration: none;
+}
+.about {
+
+     font-family: "Palatino Linotype", Palatino, Palladio, "URW Palladio L", "Book Antiqua", Baskerville, "Bookman Old Style", "Bitstream Charter", "Nimbus Roman No9 L", Garamond, "Apple Garamond", "ITC Garamond Narrow", "New Century Schoolbook", "Century Schoolbook", "Century Schoolbook L", Georgia, serif;  
+    
+}
+@media (max-width: 750px) {
+    .footer-blurb {
+        text-align:left;
+    }
+}
+.modal {
+
+     font-family: "Palatino Linotype", Palatino, Palladio, "URW Palladio L", "Book Antiqua", Baskerville, "Bookman Old Style", "Bitstream Charter", "Nimbus Roman No9 L", Garamond, "Apple Garamond", "ITC Garamond Narrow", "New Century Schoolbook", "Century Schoolbook", "Century Schoolbook L", Georgia, serif; 
+}
+::selection {
+  background-color: #f84342;
 }
